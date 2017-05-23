@@ -1,0 +1,13 @@
+/* ## Entries
+--------------------------------------------- */
+
+.entry {
+	background-color: $entry__backgroundColor;
+	margin-bottom: $entry__marginBottom;
+	padding: $entry__padding;
+
+	@media only screen and (max-width: 860px) {
+		margin-bottom: $entry__marginBottom860;
+		padding: $entry__padding860;
+	}
+}

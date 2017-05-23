@@ -1,10 +1,24 @@
 .sidebar {
-	font-size: 16px;
-	font-size: 1.6rem;
-	margin-bottom: 40px;
+	font-size: $sidebar__fontSize;
+	font-size: $sidebar__fontSizeRem;
+	margin-bottom: $sidebar__marginBottom;
+
+	@media only screen and (max-width: 860px) {
+		margin-bottom: 5%;
+	}
 
 	.widget {
-		background-color: #fff;
-		padding: 40px;
+		background-color: $sidebarWidget__backgroundColor;
+		padding: $sidebarWidget__padding;
+
+		@media only screen and (max-width: 860px) {
+			padding: $sidebarWidget__padding860;
+			margin-bottom: 5%;
+		}
+	}
+
+	.widget-title a {
+		color: $sidebarWidget__linkColor;
+		text-decoration: none;
 	}
 }

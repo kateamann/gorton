@@ -2,18 +2,18 @@
 --------------------------------------------- */
 
 p.entry-meta {
-	font-size: 16px;
-	font-size: 1.6rem;
+	font-size: $entryMeta__fontSize;
+	font-size: $entryMeta__fontSizeRem;
 	margin-bottom: 0;
 }
 
 .entry-header .entry-meta {
-	margin-bottom: 24px;
+	margin-bottom: $entryHeaderMeta__marginBottom;
 }
 
 .entry-footer .entry-meta {
-	border-top: 1px solid #eee;
-	padding-top: 24px;
+	border-top: 1px solid $entryMeta__borderColor;
+	padding-top: $entryFooterMeta__paddingTop;
 }
 
 .entry-categories,
