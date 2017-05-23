@@ -11,3 +11,5 @@
  *
  */
 namespace KateAmann\KAstarter;
+
+genesis();

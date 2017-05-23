@@ -1,0 +1,46 @@
+/* ## Pagination
+--------------------------------------------- */
+
+.pagination {
+	clear: both;
+	margin: 40px 0;
+
+	@media only screen and (max-width: 860px) {
+		margin: 5% auto;
+	}
+}
+
+.adjacent-entry-pagination {
+	margin-bottom: 0;
+}
+
+.archive-pagination {
+	li {
+		display: inline;
+
+		@media only screen and (max-width: 860px) {
+			a {
+				margin-bottom: 4px;
+			}
+		}
+	}
+
+	a {
+		background-color: $pagination__backgroundColor;
+		color: $pagination__color;
+		cursor: pointer;
+		display: inline-block;
+		font-size: $pagination__fontSize;
+		font-size: $pagination__fontSizeRem;
+		font-weight: 600;
+		padding: 8px 12px;
+		text-decoration: none;
+
+		&:focus,
+		&:hover,
+		.active & {
+			background-color: $pagination__hoverBackgroundColor;
+			color: $pagination__hoverColor;
+		}
+	}	
+}

@@ -1,0 +1,28 @@
+/*!
+	Theme Name: KAstarter
+	Theme URI: http://www.kateamann.com/
+	Description: Starter Genesis child theme for kateamann.com projects
+	Author: Kate Amann
+	Author URI: http://www.kateamann.com
+	Version: 1.0.0
+
+	Template: genesis
+
+	License: GPL-2.0+
+	License URI: http://www.gnu.org/licenses/gpl-2.0.html
+
+	Text Domain: kastarter
+*/
+
+
+@import "base/index";
+@import "layouts/index";
+@import "common-classes/index";
+@import "components/widgets/index";
+@import "plugins/index";
+@import "components/accessibility/index";
+@import "components/header/index";
+@import "components/navigation/index"
+@import "components/content/index"
+@import "components/sidebars/index"
+@import "components/footer/index"

@@ -1,0 +1,63 @@
+$white: #fff;
+$black: #000;
+
+$base__color: #333;
+
+$link__color: #c3251d;
+$link__hoverColor: #333;
+$link__focusColor: $link__hoverColor;
+
+$body__backgroundColor: #eee;
+
+
+
+//
+// Navigation Colors
+// ========================
+ 
+$nav__linkColor: #333;
+$nav__hoverColor: #c3251d;
+$nav__focusColor: $nav__hoverColor;
+$nav__borderColor: #eee;
+
+$pagination__backgroundColor: #fff;
+$pagination__color: #333;
+$pagination__linkColor: #333;
+$pagination__hoverColor: #333;
+$pagination__hoverBackgroundColor: #c3251d;
+$pagination__focusColor: $pagination__hoverColor;
+$pagination__borderColor: #eee;
+
+$subMenu__backgroundColor: #fff;
+$subMenu__borderColor: #eee;
+
+$primaryNav__backgroundColor: #fff;
+$primaryNav__linkColor: $nav__linkColor;
+$primaryNav__borderColor: #eee;
+
+$secondaryNav__backgroundColor: #fff;
+$secondaryNav__linkColor: $nav__linkColor;
+$secondaryNav__borderColor: #eee;
+
+$responsiveNav__backgroundColor: #fff;
+$responsiveNav__color: #333;
+$responsiveNav__linkColor: $nav__linkColor;
+$responsiveNav__hoverColor: #c3251d;
+$responsiveNav__focusColor: $responsiveNav__hoverColor;
+$responsiveNav__borderColor: #eee;
+
+
+//
+// Header Colors
+// ========================
+
+$siteHeader__backgroundColor: $fff;
+$siteHeader__linkColor: #333;
+
+
+//
+// Footer Colors
+// ========================
+
+$siteFooter__backgroundColor: $black;
+$siteFooter__linkColor: #333;
