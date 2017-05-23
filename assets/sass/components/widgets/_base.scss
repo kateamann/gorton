@@ -1,15 +1,7 @@
 .widget {
-	margin-bottom: 40px;
+	margin-bottom: $widget__marginBottom;
 	word-wrap: break-word;
-}
 
-.widget p:last-child,
-.widget ul > li:last-of-type,
-.widget-area .widget:last-of-type {
-	margin-bottom: 0;
-}
-
-.widget {
 	ul > li {
 		margin-bottom: 10px;
 		padding-bottom: 10px;
@@ -33,8 +25,14 @@
 	}
 }
 
+.widget p:last-child,
+.widget ul > li:last-of-type,
+.widget-area .widget:last-of-type {
+	margin-bottom: 0;
+}
+
 .widget-title {
-	font-size: 18px;
-	font-size: 1.8rem;
-	margin-bottom: 20px;
+	font-size: $widgetTitle__fontSize;
+	font-size: $widgetTitle__fontSizeRem;
+	margin-bottom: $widgetTitle__marginBottom;
 }
