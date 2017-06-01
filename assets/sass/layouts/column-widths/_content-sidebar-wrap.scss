@@ -1,0 +1,36 @@
+/* ### Wrapping div for .content and .sidebar-primary */
+
+.content-sidebar-wrap {
+	.content-sidebar-sidebar &,
+	.sidebar-content-sidebar &,
+	.sidebar-sidebar-content & {
+		width: $contentSidebarWrapWidth;
+
+		@media only screen and (max-width: $biggerScreen) {
+			width: $contentSidebarWrapWidth__biggerScreen;
+		}
+
+		@media only screen and (max-width: $bigScreen) {
+			width: $contentSidebarWrapWidth__bigScreen;
+		}
+
+		@media only screen and (max-width: $mediumScreen) {
+			width: 100%;
+		}
+	}
+
+	.content-sidebar-sidebar & {
+		float: left;
+	}
+
+	.sidebar-content-sidebar &,
+	.sidebar-sidebar-content & {
+		float: right;
+	}
+}
+
+@media only screen and (max-width: $smallScreen) {
+	.sidebar {
+		margin-bottom: 5%;
+	}
+}

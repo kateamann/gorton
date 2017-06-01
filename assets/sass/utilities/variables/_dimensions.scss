@@ -1,4 +1,39 @@
 //
+// Site widths
+// ========================
+
+$maxSiteWidth: 1280px;
+$maxSiteWidth__biggerScreen: 1140px;
+$maxSiteWidth__bigScreen: 960px;
+$maxSiteWidth__mediumScreen: 800px;
+$maxSiteWidth__landingPage: 800px;
+
+
+//
+// Content widths
+// ========================
+
+$contentWidth: 880px;
+$contentWidth__bothSidebars: 660px;
+
+$contentWidth__biggerScreen: 800px;
+$contentWidth__bothSidebarsBiggerScreen: 580px;
+
+$contentWidth__bigScreen: 620px;
+$contentWidth__bothSidebarsBigScreen: 400px;
+
+
+$primarySidebarWidth: 360px;
+$primarySidebarWidth__biggerScreen: 300px;
+
+$secondarySidebarWidth: 180px;
+
+$contentSidebarWrapWidth: 1060px;
+$contentSidebarWrapWidth__biggerScreen: 920px;
+$contentSidebarWrapWidth__bigScreen: 740px;
+
+
+//
 // Title area dimensions
 // ========================
 
