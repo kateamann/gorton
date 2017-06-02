@@ -1,0 +1,21 @@
+.author-box {
+	background-color: $authorBox__backgroundColor;
+	font-size: $authorBox__fontSize;
+	font-size: $authorBox__fontSizeRem;
+	margin-bottom: $authorBox__marginBottom;
+	padding: $authorBox__padding;
+
+	p:last-child {
+		margin-bottom: 0;
+	}
+
+	@media only screen and (max-width: 860px) {
+		padding: 30px;
+		margin-bottom: 5%;
+	}
+}
+
+.author-box-title {
+	font-size: $authorBoxTitle__fontSize;
+	font-size: $authorBoxTitle__fontSizeRem;
+}

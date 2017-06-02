@@ -11,13 +11,28 @@ $black: #000;
 // ========================
 
 $base__color: #333;
+$body__backgroundColor: #eee;
 
 $link__color: #c3251d;
 $link__hoverColor: #333;
 $link__focusColor: $link__hoverColor;
 
-$body__backgroundColor: #eee;
+$hr_borderColor: #eee;
 
+
+//
+// Element Colors
+// ========================
+
+$input__backgroundColor: #fff;
+$input__borderColor: #ddd;
+$input__color: #333;
+$inputFocus__borderColor: #999;
+
+$button__backgroundColor: #333;
+$button__color: #fff;
+$buttonHover__backgroundColor: #c3251d;
+$buttonHover__color: #fff;
 
 
 //
@@ -55,6 +70,8 @@ $responsiveNav__hoverColor: #c3251d;
 $responsiveNav__focusColor: $responsiveNav__hoverColor;
 $responsiveNav__borderColor: #eee;
 
+$breadcrumb__backgroundColor: #fff;
+
 
 //
 // Header Colors
@@ -74,6 +91,17 @@ $entryTitle__linkColor: #333;
 $entryTitle__linkHoverColor: #c3251d;
 
 $entryMeta__borderColor: #eee;
+
+$authorBox__backgroundColor: #fff;
+
+$afterEntry__backgroundColor: #fff;
+
+
+//
+// Archive Colors
+// ========================
+
+$archiveDescription__backgroundColor: #fff;
 
 
 //

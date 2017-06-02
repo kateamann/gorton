@@ -9,18 +9,39 @@ html {
 body > div {
 	font-size: 20px;
 	font-size: 2rem;
+
+	@media only screen and (max-width: 860px) {
+		font-size: 18px;
+		font-size: 1.8rem;
+	}
 }
 
 body {
-	background-color: #eee;
-	color: #333;
-	font-family: 'Source Sans Pro', sans-serif;
-	font-size: 20px;
-	font-size: 2rem;
+	background-color: $body__backgroundColor;
+	color: $base__color;
+	font-family: $baseFontFamily;
+	font-size: $baseFontSize;
+	font-size: $baseFontSizeRem;
 	-webkit-font-smoothing: antialiased;
 	font-weight: 400;
-	line-height: 1.625;
+	line-height: $baseLineHeight;
 	margin: 0;
+
+	@media only screen and (max-width: 860px) {
+		font-size: 18px;
+		font-size: 1.8rem;
+	}
+}
+
+a {
+	color: $link__color;
+	text-decoration: $baseLinkDecoration;
+}
+
+a:focus,
+a:hover {
+	color: $link__hoverColor;
+	text-decoration: $baseLinkHoverDecoration;
 }
 
 a,
@@ -47,7 +68,7 @@ p {
 hr {
 	border: 0;
 	border-collapse: collapse;
-	border-top: 1px solid #eee;
+	border-top: 1px solid $hr_borderColor;
 	clear: both;
 	margin: 1em 0;
 }

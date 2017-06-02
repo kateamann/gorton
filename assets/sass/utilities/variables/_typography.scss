@@ -1,3 +1,30 @@
+$baseFontFamily: 'Source Sans Pro', sans-serif;
+$baseFontSize: 20px;
+$baseFontSizeRem: 2rem;
+$baseLineHeight: 1.625;
+
+$baseLinkDecoration: none;
+$baseLinkHoverDecoration: none;
+$baseLinkFocusDecoration: $baseLinkHoverDecoration;
+
+$headingsFontFamily: 'Source Sans Pro', sans-serif;
+$headingsLineHeight: 1.2;
+
+
+//
+// Element Typography
+// ========================
+
+$blockquote__fontSize: 30px;
+$blockquote__fontSizeRem: 3rem;
+
+$input__fontSize: 18px;
+$input__fontSizeRem: 1.8rem;
+
+$button__fontSize: 16px;
+$button__fontSizeRem: 1.6rem;
+
+
 //
 // Header Typography
 // ========================
@@ -7,6 +34,7 @@ $siteTitle__fontSizeRem: 3rem;
 
 $siteDescription__fontSize: 16px;
 $siteDescription__fontSizeRem: 1.6rem;
+
 
 //
 // Navigation Typography
@@ -24,6 +52,9 @@ $subMenu__fontSizeRem: 1.4rem;
 $primaryNav__fontSize: 14px;
 $primaryNav__fontSizeRem: 1.4rem;
 
+$breadcrumb__fontSize: 16px;
+$breadcrumb__fontSizeRem: 1.6rem;
+
 
 //
 // Content Typography
@@ -34,6 +65,26 @@ $entryTitle__fontSizeRem: 3.6rem;
 
 $entryMeta__fontSize: 16px;
 $entryMeta__fontSizeRem: 1.6rem;
+
+$authorBox__fontSize: 18px;
+$authorBox__fontSizeRem: 1.8rem;
+
+$authorBoxTitle__fontSize: 20px;
+$authorBoxTitle__fontSizeRem: 2rem;
+
+$afterEntry__fontSize: 18px;
+$afterEntry__fontSizeRem: 1.8rem;
+
+
+//
+// Archive Typography
+// ========================
+
+$archiveTitle__fontSize: 20px;
+$archiveTitle__fontSizeRem: 2rem;
+
+$archiveDescription__fontSize: 18px;
+$archiveDescription__fontSizeRem: 1.8rem;
 
 
 //
@@ -53,6 +104,7 @@ $widgetTitle__fontSizeRem: 1.8rem;
 
 $widgetFeaturedContentTitle__fontSize: 20px;
 $widgetFeaturedContentTitle__fontSizeRem: 2rem;
+
 
 //
 // Footer Typography
