@@ -1,0 +1,28 @@
+{
+  "name": "kastarter",
+  "version": "1.0.0",
+  "description": "Developer-friendly starter child theme for the Genesis framework. Uses modular architecture, Sass, gulp, Bourbon Neat, and Composer.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kateamann/kastarter.git"
+  },
+  "author": "Kate Amann",
+  "license": "GPL",
+  "bugs": {
+    "url": "https://github.com/kateamann/kastarter/issues"
+  },
+  "homepage": "https://github.com/kateamann/kastarter#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.1.0",
+    "bourbon": "^4.3.4",
+    "bourbon-neat": "^2.0.0"
+  },
+  "dependencies": {
+    "sass-rem": "^1.2.4"
+  }
+}

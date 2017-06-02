@@ -1,7 +1,6 @@
 .archive-description {
 	background-color: $archive-description--background-color;
-	font-size: $archive-description--font-size;
-	font-size: $archive-description--font-size-rem;
+	@include rem( font-size, $archive-description--font-size );
 	margin-bottom: $archive-description--margin-bottom;
 	padding: $archive-description--padding;
 

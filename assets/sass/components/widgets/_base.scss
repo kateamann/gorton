@@ -32,7 +32,6 @@
 }
 
 .widget-title {
-	font-size: $widget-title--font-size;
-	font-size: $widget-title--font-size-rem;
+	@include rem( font-size, $widget-title--font-size );
 	margin-bottom: $widget-title--margin-bottom;
 }

@@ -1,6 +1,5 @@
 .sidebar {
-	font-size: $sidebar--font-size;
-	font-size: $sidebar--font-size-rem;
+	@include rem( font-size, $sidebar--font-size );
 	margin-bottom: $sidebar--margin-bottom;
 
 	@media only screen and (max-width: 860px) {

@@ -17,8 +17,7 @@
 }
 
 .site-title {
-	font-size: $site-title--font-size;
-	font-size: $site-title--font-size-rem;
+	@include rem( font-size, $site-title--font-size );
 	font-weight: 700;
 	line-height: 1.2;
 	margin-bottom: 0;
@@ -36,8 +35,7 @@
 }
 
 .site-description {
-	font-size: $site-description--font-size;
-	font-size: $site-description--font-size-rem;
+	@include rem( font-size, $site-description--font-size );
 	font-weight: 400;
 	line-height: 1.5;
 	margin-bottom: 0;

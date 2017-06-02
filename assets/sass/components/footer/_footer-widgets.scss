@@ -4,8 +4,7 @@
 .footer-widgets {
 	background-color: $footer-widgets--background-color;
 	clear: both;
-	font-size: $footer-widgets--font-size;
-	font-size: $footer-widgets--font-size-rem;
+	@include rem( font-size, $footer-widgets--font-size );
 	padding: 60px 0;
 }
 

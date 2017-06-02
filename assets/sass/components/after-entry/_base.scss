@@ -1,7 +1,6 @@
 .after-entry {
 	background-color: $after-entry--background-color;
-	font-size: $after-entry--font-size;
-	font-size: $after-entry--font-size-rem;
+	@include rem( font-size, $after-entry--font-size );
 	margin-bottom: $after-entry--margin-bottom;
 	padding: $after-entry--padding;
 

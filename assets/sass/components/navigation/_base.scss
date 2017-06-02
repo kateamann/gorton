@@ -1,20 +1,13 @@
 .genesis-nav-menu {
 	clear: both;
-	font-size: $nav--font-size;
-	font-size: $nav--font-size-rem;
+	@include rem( font-size, $nav--font-size );
 	font-weight: 600;
 	line-height: 1;
 	width: 100%;
 
 	@media only screen and (max-width: 1023px) {
 		text-align: center;
-
-		li,
-		.site-header ul.& {
-			float: none;
-		}
 	}
-
 
 	.menu-item {
 		display: inline-block;
@@ -52,8 +45,7 @@
 			background-color: $sub-menu--background-color;
 			border: 1px solid $sub-menu--border-color;
 			border-top: 0;
-			font-size: $sub-menu--font-size;
-			font-size: $sub-menu--font-size-rem;
+			@include rem( font-size, $sub-menu--font-size );
 			padding: 20px;
 			position: relative;
 			width: 200px;
@@ -84,6 +76,13 @@
 
 	> .right {
 		float: right;
+	}
+}
+
+.genesis-nav-menu li,
+.site-header ul.genesis-nav-menu {
+	@media only screen and (max-width: 1023px) {
+		float: none;
 	}
 }
 

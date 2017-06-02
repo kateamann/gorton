@@ -12,7 +12,6 @@
 	}
 
 	.entry-title {
-		font-size: $widget-featured-content-title--font-size;
-		font-size: $widget-featured-content-title--font-size-rem;
+		@include rem( font-size, $widget-featured-content-title--font-size );
 	}
 }

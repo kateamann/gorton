@@ -1,6 +1,7 @@
 /*!
 	Theme Name: KAstarter
 	Theme URI: http://www.kateamann.com/
+	
 	Description: Starter Genesis child theme for kateamann.com projects
 	Author: Kate Amann
 	Author URI: http://www.kateamann.com
@@ -14,6 +15,9 @@
 	Text Domain: kastarter
 */
 
+@import "bourbon";
+@import "neat";
+@import "../../node_modules/sass-rem/rem";
 
 @import "utilities/index";
 @import "base/index";
