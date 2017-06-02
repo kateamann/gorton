@@ -1,5 +1,5 @@
 .widget {
-	margin-bottom: $widget__marginBottom;
+	margin-bottom: $widget--margin-bottom;
 	word-wrap: break-word;
 
 	ul > li {
@@ -32,7 +32,7 @@
 }
 
 .widget-title {
-	font-size: $widgetTitle__fontSize;
-	font-size: $widgetTitle__fontSizeRem;
-	margin-bottom: $widgetTitle__marginBottom;
+	font-size: $widget-title--font-size;
+	font-size: $widget-title--font-size-rem;
+	margin-bottom: $widget-title--margin-bottom;
 }

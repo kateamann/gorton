@@ -39,9 +39,9 @@
 
 	.menu-toggle,
 	.sub-menu-toggle {
-		background-color: $responsiveNav__backgroundColor;
+		background-color: $responsive-nav--background-color;
 		border-width: 0;
-		color: $responsiveNav__color;
+		color: $responsive-nav--color;
 		display: block;
 		margin: 0 auto;
 		overflow: hidden;
@@ -53,9 +53,9 @@
 	.menu-toggle:hover,
 	.sub-menu-toggle:focus,
 	.sub-menu-toggle:hover {
-		background-color: $responsiveNav__backgroundColor;
+		background-color: $responsive-nav--background-color;
 		border-width: 0;
-		color: $responsiveNav__hoverColor;
+		color: $responsive-nav--hover-color;
 	}
 
 	.menu-toggle {
@@ -68,7 +68,7 @@
 	.menu-toggle,
 	.menu-toggle:focus,
 	.menu-toggle:hover {
-		border-top: 1px solid $responsiveNav__borderColor;
+		border-top: 1px solid $responsive-nav--border-color;
 	}
 
 	.menu-toggle::before {

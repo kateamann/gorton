@@ -2,24 +2,24 @@
 ---------------------------------------------------------------------------------------------------- */
 
 .footer-widgets {
-	background-color: $footerWidgets__backgroundColor;
+	background-color: $footer-widgets--background-color;
 	clear: both;
-	font-size: $footerWidgets__fontSize;
-	font-size: $footerWidgets__fontSizeRem;
+	font-size: $footer-widgets--font-size;
+	font-size: $footer-widgets--font-size-rem;
 	padding: 60px 0;
 }
 
 .footer-widgets-1,
 .footer-widgets-2,
 .footer-widgets-3 {
-	width: $footerWidgets__width;
+	width: $footer-widgets--width;
 
 	@media only screen and (max-width: 1340px) {
-		width: $footerWidgets__width1340;
+		width: $footer-widgets--width__bigger-screen;
 	}
 
 	@media only screen and (max-width: 1200px) {
-		width: $footerWidgets__width1200;
+		width: $footer-widgets--width__big-screen;
 	}
 
 	@media only screen and (max-width: 1023px) {
@@ -28,14 +28,14 @@
 }
 
 .footer-widgets-1 {
-	margin-right: $footerWidgets1MarginRight__width;
+	margin-right: $footer-widgets-margin-right--width;
 
 	@media only screen and (max-width: 1340px) {
-		margin-right: $footerWidgets1MarginRight__width1340;
+		margin-right: $footer-widgets-margin-right--width__bigger-screen;
 	}
 
 	@media only screen and (max-width: 1200px) {
-		margin-right: $footerWidgets1MarginRight__width1200;
+		margin-right: $footer-widgets-margin-right--width__big-screen;
 	}
 }
 

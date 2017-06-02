@@ -2,12 +2,12 @@
 --------------------------------------------- */
 
 .entry {
-	background-color: $entry__backgroundColor;
-	margin-bottom: $entry__marginBottom;
-	padding: $entry__padding;
+	background-color: $entry--background-color;
+	margin-bottom: $entry--margin-bottom;
+	padding: $entry--padding;
 
 	@media only screen and (max-width: 860px) {
-		margin-bottom: $entry__marginBottom860;
-		padding: $entry__padding860;
+		margin-bottom: $entry--margin-bottom__small-screen;
+		padding: $entry--padding__small-screen;
 	}
 }

@@ -26,12 +26,12 @@
 	}
 
 	a {
-		background-color: $pagination__backgroundColor;
-		color: $pagination__color;
+		background-color: $pagination--background-color;
+		color: $pagination--color;
 		cursor: pointer;
 		display: inline-block;
-		font-size: $pagination__fontSize;
-		font-size: $pagination__fontSizeRem;
+		font-size: $pagination--font-size;
+		font-size: $pagination--font-size-rem;
 		font-weight: 600;
 		padding: 8px 12px;
 		text-decoration: none;
@@ -40,7 +40,7 @@
 		&:hover,
 		.active & {
 			background-color: $pagination__hoverBackgroundColor;
-			color: $pagination__hoverColor;
+			color: $pagination--hover-color;
 		}
 	}	
 }

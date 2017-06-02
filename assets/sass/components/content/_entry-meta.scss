@@ -2,18 +2,18 @@
 --------------------------------------------- */
 
 p.entry-meta {
-	font-size: $entryMeta__fontSize;
-	font-size: $entryMeta__fontSizeRem;
+	font-size: $entry-meta--font-size;
+	font-size: $entry-meta--font-size-rem;
 	margin-bottom: 0;
 }
 
 .entry-header .entry-meta {
-	margin-bottom: $entryHeaderMeta__marginBottom;
+	margin-bottom: $entry-header-meta--margin-bottom;
 }
 
 .entry-footer .entry-meta {
-	border-top: 1px solid $entryMeta__borderColor;
-	padding-top: $entryFooterMeta__paddingTop;
+	border-top: 1px solid $entry-meta--border-color;
+	padding-top: $entry-footer-meta--paddingTop;
 }
 
 .entry-categories,

@@ -4,7 +4,7 @@
 .title-area {
 	float: left;
 	padding: 10px 0;
-	width: $titleArea__width;
+	width: $title-area--width;
 
 	.header-full-width & {
 		float: none;
@@ -17,8 +17,8 @@
 }
 
 .site-title {
-	font-size: $siteTitle__fontSize;
-	font-size: $siteTitle__fontSizeRem;
+	font-size: $site-title--font-size;
+	font-size: $site-title--font-size-rem;
 	font-weight: 700;
 	line-height: 1.2;
 	margin-bottom: 0;
@@ -26,7 +26,7 @@
 	a,
 	a:focus,
 	a:hover {
-		color: $siteHeader__linkColor;
+		color: $site-header--link-color;
 		text-decoration: none;
 	}
 
@@ -36,8 +36,8 @@
 }
 
 .site-description {
-	font-size: $siteDescription__fontSize;
-	font-size: $siteDescription__fontSizeRem;
+	font-size: $site-description--font-size;
+	font-size: $site-description--font-size-rem;
 	font-weight: 400;
 	line-height: 1.5;
 	margin-bottom: 0;
@@ -56,7 +56,7 @@
 
 	.title-area {
 		margin: 0 auto;
-		max-width: $titleArea__width;
+		max-width: $title-area--width;
 		padding: 0;
 
 		@media only screen and (max-width: 1023px) {
@@ -68,7 +68,7 @@
 		background-position: center !important;
 		background-size: contain !important;
 		float: left;
-		min-height: $siteTitle__minHeight;
+		min-height: $site-title--min-height;
 		width: 100%;
 	}
 }

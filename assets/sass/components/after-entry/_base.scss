@@ -1,9 +1,9 @@
 .after-entry {
-	background-color: $afterEntry__backgroundColor;
-	font-size: $afterEntry__fontSize;
-	font-size: $afterEntry__fontSizeRem;
-	margin-bottom: $afterEntry__marginBottom;
-	padding: $afterEntry__padding;
+	background-color: $after-entry--background-color;
+	font-size: $after-entry--font-size;
+	font-size: $after-entry--font-size-rem;
+	margin-bottom: $after-entry--margin-bottom;
+	padding: $after-entry--padding;
 
 	@media only screen and (max-width: 860px) {
 		padding: 30px;

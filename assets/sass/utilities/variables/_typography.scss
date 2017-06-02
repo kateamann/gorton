@@ -1,117 +1,117 @@
-$baseFontFamily: 'Source Sans Pro', sans-serif;
-$baseFontSize: 20px;
-$baseFontSizeRem: 2rem;
-$baseLineHeight: 1.625;
+$base--font-family: 'Source Sans Pro', sans-serif;
+$base--font-size: 20px;
+$base--font-size-rem: 2rem;
+$base--line-height: 1.625;
 
-$baseLinkDecoration: none;
-$baseLinkHoverDecoration: none;
-$baseLinkFocusDecoration: $baseLinkHoverDecoration;
+$base--link-decoration: none;
+$base--link-hover-decoration: none;
+$base--link-focus-decoration: $base--link-hover-decoration;
 
-$headingsFontFamily: 'Source Sans Pro', sans-serif;
-$headingsLineHeight: 1.2;
+$headings--font-family: 'Source Sans Pro', sans-serif;
+$headings--line-height: 1.2;
 
 
 //
 // Element Typography
 // ========================
 
-$blockquote__fontSize: 30px;
-$blockquote__fontSizeRem: 3rem;
+$blockquote--font-size: 30px;
+$blockquote--font-size-rem: 3rem;
 
-$input__fontSize: 18px;
-$input__fontSizeRem: 1.8rem;
+$input--font-size: 18px;
+$input--font-size-rem: 1.8rem;
 
-$button__fontSize: 16px;
-$button__fontSizeRem: 1.6rem;
+$button--font-size: 16px;
+$button--font-size-rem: 1.6rem;
 
 
 //
 // Header Typography
 // ========================
 
-$siteTitle__fontSize: 30px;
-$siteTitle__fontSizeRem: 3rem;
+$site-title--font-size: 30px;
+$site-title--font-size-rem: 3rem;
 
-$siteDescription__fontSize: 16px;
-$siteDescription__fontSizeRem: 1.6rem;
+$site-description--font-size: 16px;
+$site-description--font-size-rem: 1.6rem;
 
 
 //
 // Navigation Typography
 // ========================
 
-$nav__fontSize: 16px;
-$nav__fontSizeRem: 1.6rem;
+$nav--font-size: 16px;
+$nav--font-size-rem: 1.6rem;
 
-$pagination__fontSize: 16px;
-$pagination__fontSizeRem: 1.6rem;
+$pagination--font-size: 16px;
+$pagination--font-size-rem: 1.6rem;
 
-$subMenu__fontSize: 14px;
-$subMenu__fontSizeRem: 1.4rem;
+$sub-menu--font-size: 14px;
+$sub-menu--font-size-rem: 1.4rem;
 
-$primaryNav__fontSize: 14px;
-$primaryNav__fontSizeRem: 1.4rem;
+$primary-nav--font-size: 14px;
+$primary-nav--font-size-rem: 1.4rem;
 
-$breadcrumb__fontSize: 16px;
-$breadcrumb__fontSizeRem: 1.6rem;
+$breadcrumb--font-size: 16px;
+$breadcrumb--font-size-rem: 1.6rem;
 
 
 //
 // Content Typography
 // ========================
 
-$entryTitle__fontSize: 36px;
-$entryTitle__fontSizeRem: 3.6rem;
+$entry-title--font-size: 36px;
+$entry-title--font-size-rem: 3.6rem;
 
-$entryMeta__fontSize: 16px;
-$entryMeta__fontSizeRem: 1.6rem;
+$entry-meta--font-size: 16px;
+$entry-meta--font-size-rem: 1.6rem;
 
-$authorBox__fontSize: 18px;
-$authorBox__fontSizeRem: 1.8rem;
+$author-box--font-size: 18px;
+$author-box--font-size-rem: 1.8rem;
 
-$authorBoxTitle__fontSize: 20px;
-$authorBoxTitle__fontSizeRem: 2rem;
+$author-box-title--font-size: 20px;
+$author-box-title--font-size-rem: 2rem;
 
-$afterEntry__fontSize: 18px;
-$afterEntry__fontSizeRem: 1.8rem;
+$after-entry--font-size: 18px;
+$after-entry--font-size-rem: 1.8rem;
 
 
 //
 // Archive Typography
 // ========================
 
-$archiveTitle__fontSize: 20px;
-$archiveTitle__fontSizeRem: 2rem;
+$archive-title--font-size: 20px;
+$archive-title--font-size-rem: 2rem;
 
-$archiveDescription__fontSize: 18px;
-$archiveDescription__fontSizeRem: 1.8rem;
+$archive-description--font-size: 18px;
+$archive-description--font-size-rem: 1.8rem;
 
 
 //
 // Sidebar Typography
 // ========================
 
-$sidebar__fontSize: 16px;
-$sidebar__fontSizeRem: 1.6rem;
+$sidebar--font-size: 16px;
+$sidebar--font-size-rem: 1.6rem;
 
 
 //
 // Widget Typography
 // ========================
 
-$widgetTitle__fontSize: 18px;
-$widgetTitle__fontSizeRem: 1.8rem;
+$widget-title--font-size: 18px;
+$widget-title--font-size-rem: 1.8rem;
 
-$widgetFeaturedContentTitle__fontSize: 20px;
-$widgetFeaturedContentTitle__fontSizeRem: 2rem;
+$widget-featured-content-title--font-size: 20px;
+$widget-featured-content-title--font-size-rem: 2rem;
 
 
 //
 // Footer Typography
 // ========================
 
-$siteFooter__fontSize: 16px;
-$siteFooter__fontSizeRem: 1.6rem;
+$site-footer--font-size: 16px;
+$site-footer--font-size-rem: 1.6rem;
 
-$footerWidgets__fontSize: 18px;
-$footerWidgets__fontSizeRem: 1.8rem;
+$footer-widgets--font-size: 18px;
+$footer-widgets--font-size-rem: 1.8rem;

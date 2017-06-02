@@ -17,14 +17,14 @@ body > div {
 }
 
 body {
-	background-color: $body__backgroundColor;
-	color: $base__color;
-	font-family: $baseFontFamily;
-	font-size: $baseFontSize;
-	font-size: $baseFontSizeRem;
+	background-color: $body--background-color;
+	color: $base--color;
+	font-family: $base--font-family;
+	font-size: $base--font-size;
+	font-size: $base--font-size-rem;
 	-webkit-font-smoothing: antialiased;
 	font-weight: 400;
-	line-height: $baseLineHeight;
+	line-height: $base--line-height;
 	margin: 0;
 
 	@media only screen and (max-width: 860px) {
@@ -34,14 +34,14 @@ body {
 }
 
 a {
-	color: $link__color;
-	text-decoration: $baseLinkDecoration;
+	color: $link--color;
+	text-decoration: $base--link-decoration;
 }
 
 a:focus,
 a:hover {
-	color: $link__hoverColor;
-	text-decoration: $baseLinkHoverDecoration;
+	color: $link--hover-color;
+	text-decoration: $base--link-hover-decoration;
 }
 
 a,
@@ -68,7 +68,7 @@ p {
 hr {
 	border: 0;
 	border-collapse: collapse;
-	border-top: 1px solid $hr_borderColor;
+	border-top: 1px solid $hr--border-color;
 	clear: both;
 	margin: 1em 0;
 }

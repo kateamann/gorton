@@ -2,17 +2,17 @@
 
 .content {
 	float: right;
-	width: $contentWidth;
+	width: $content--width;
 
-	@media only screen and (max-width: $biggerScreen) {
-		width: $contentWidth__biggerScreen;
+	@media only screen and (max-width: $bigger-screen) {
+		width: $content--width__bigger-screen;
 	}
 
-	@media only screen and (max-width: $bigScreen) {
-		width: $contentWidth__bigScreen;
+	@media only screen and (max-width: $big-screen) {
+		width: $content--width__big-screen;
 	}
 
-	@media only screen and (max-width: $mediumScreen) {
+	@media only screen and (max-width: $medium-screen) {
 		width: 100%;
 	}
 
@@ -25,17 +25,17 @@
 	.content-sidebar-sidebar &,
 	.sidebar-content-sidebar &,
 	.sidebar-sidebar-content & {
-		width: $contentWidth__bothSidebars;
+		width: $content-both-sidebars--width;
 
-		@media only screen and (max-width: $biggerScreen) {
-			width: $contentWidth__bothSidebarsBiggerScreen;
+		@media only screen and (max-width: $bigger-screen) {
+			width: $content-both-sidebars--width__bigger-screen;
 		}
 
-		@media only screen and (max-width: $bigScreen) {
-			width: $contentWidth__bothSidebarsBigScreen;
+		@media only screen and (max-width: $big-screen) {
+			width: $content-both-sidebars--width__big-screen;
 		}
 
-		@media only screen and (max-width: $mediumScreen) {
+		@media only screen and (max-width: $medium-screen) {
 			width: 100%;
 		}
 	}

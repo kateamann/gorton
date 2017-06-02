@@ -2,96 +2,96 @@
 // Site widths
 // ========================
 
-$maxSiteWidth: 1280px;
-$maxSiteWidth__biggerScreen: 1140px;
-$maxSiteWidth__bigScreen: 960px;
-$maxSiteWidth__mediumScreen: 800px;
-$maxSiteWidth__landingPage: 800px;
+$base--width: 1280px;
+$base--width__bigger-screen: 1140px;
+$base--width__big-screen: 960px;
+$base--width__medium-screen: 800px;
+$base--width__landing-page: 800px;
 
 
 //
 // Content widths
 // ========================
 
-$contentWidth: 880px;
-$contentWidth__bothSidebars: 660px;
+$content--width: 880px;
+$content-both-sidebars--width: 660px;
 
-$contentWidth__biggerScreen: 800px;
-$contentWidth__bothSidebarsBiggerScreen: 580px;
+$content--width__bigger-screen: 800px;
+$content-both-sidebars--width__bigger-screen: 580px;
 
-$contentWidth__bigScreen: 620px;
-$contentWidth__bothSidebarsBigScreen: 400px;
+$content--width__big-screen: 620px;
+$content-both-sidebars--width__big-screen: 400px;
 
 
-$primarySidebarWidth: 360px;
-$primarySidebarWidth__biggerScreen: 300px;
+$primary-sidebar--width: 360px;
+$primary-sidebar--width__bigger-screen: 300px;
 
-$secondarySidebarWidth: 180px;
+$secondary-sidebar--width: 180px;
 
-$contentSidebarWrapWidth: 1060px;
-$contentSidebarWrapWidth__biggerScreen: 920px;
-$contentSidebarWrapWidth__bigScreen: 740px;
+$content-sidebar-wrap--width: 1060px;
+$content-sidebar-wrap--width__bigger-screen: 920px;
+$content-sidebar-wrap--width__big-screen: 740px;
 
 
 //
 // Title area dimensions
 // ========================
 
-$titleArea__width: 300px;
-$siteTitle__minHeight: 80px;
+$title-area--width: 300px;
+$site-title--min-height: 80px;
 
-$headerWidgetArea__width: 800px;
-$headerWidgetArea__width1200: 620px;
+$header-widget-area--width: 800px;
+$header-widget-area--width__big-screen: 620px;
 
 
 //
 // Content dimensions
 // ========================
 
-$entry__marginBottom: 40px;
-$entry__padding: 70px 80px;
-$entry__marginBottom860: 5%;
-$entry__padding860: 30px;
+$entry--margin-bottom: 40px;
+$entry--padding: 70px 80px;
+$entry--margin-bottom__small-screen: 5%;
+$entry--padding__small-screen: 30px;
 
-$afterEntry__marginBottom: 40px;
-$afterEntry__padding: 60px;
+$after-entry--margin-bottom: 40px;
+$after-entry--padding: 60px;
 
-$authorBox__marginBottom: 40px;
-$authorBox__padding: 60px;
+$author-box--margin-bottom: 40px;
+$author-box--padding: 60px;
 
-$archiveDescription__marginBottom: 40px;
-$archiveDescription__padding: 60px;
+$archive-description--margin-bottom: 40px;
+$archive-description--padding: 60px;
 
-$entryHeaderMeta__marginBottom: 24px;
-$entryFooterMeta__paddingTop: 24px;
+$entry-header-meta--margin-bottom: 24px;
+$entry-footer-meta--paddingTop: 24px;
 
 
 //
 // Sidebar dimensions
 // ========================
 
-$sidebar__marginBottom: 40px;
+$sidebar--margin-bottom: 40px;
 
-$sidebarWidget__padding: 40px;
-$sidebarWidget__padding860: 30px;
+$sidebar-widget--padding: 40px;
+$sidebar-widget--padding__small-screen: 30px;
 
 
 //
 // Widget dimensions
 // ========================
 
-$widget__marginBottom: 40px;
-$widgetTitle__marginBottom: 20px;
+$widget--margin-bottom: 40px;
+$widget-title--margin-bottom: 20px;
 
 
 //
 // Footer dimensions
 // ========================
 
-$footerWidgets__width: 380px;
-$footerWidgets__width1340: 340px;
-$footerWidgets__width1200: 300px;
+$footer-widgets--width: 380px;
+$footer-widgets--width__bigger-screen: 340px;
+$footer-widgets--width__big-screen: 300px;
 
-$footerWidgets1MarginRight__width: 70px;
-$footerWidgets1MarginRight__width1340: 60px;
-$footerWidgets1MarginRight__width1200: 30px;
+$footer-widgets-margin-right--width: 70px;
+$footer-widgets-margin-right--width__bigger-screen: 60px;
+$footer-widgets-margin-right--width__big-screen: 30px;

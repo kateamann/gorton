@@ -7,9 +7,9 @@ h3,
 h4,
 h5,
 h6 {
-	font-family: $headingsFontFamily;
+	font-family: $headings--font-family;
 	font-weight: 600;
-	line-height: $headingsLineHeight;
+	line-height: $headings--line-height;
 	margin: 0 0 10px;
 }
 
