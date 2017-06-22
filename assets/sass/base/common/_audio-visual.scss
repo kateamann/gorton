@@ -11,8 +11,7 @@
 
 .gallery-caption,
 .wp-caption-text {
-	font-size: 14px;
-	font-size: 1.4rem;
+	@include rem( font-size, 14px );
 	font-weight: 600;
 	margin: 0;
 	text-align: center;

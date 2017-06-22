@@ -22,22 +22,23 @@ namespace KateAmann\KAstarter;
 function load_nonadmin_files() {
     $filenames = array(
         'setup.php',
-        'components/customizer/customizer.php',
-        'components/customizer/css-handler.php',
-        'components/customizer/helpers.php',
-        'functions/formatting.php',
+        // 'components/customizer/customizer.php',
+        // 'components/customizer/css-handler.php',
+        // 'components/customizer/helpers.php',
+        // 'functions/formatting.php',
         'functions/load-assets.php',
-        'functions/markup.php',
-        'structure/archive.php',
+        // 'functions/markup.php',
+        // 'functions/tinymce-styles.php',
+        // 'structure/archive.php',
         'structure/comments.php',
-        'structure/footer.php',
-        'structure/header.php',
+        // 'structure/footer.php',
+        // 'structure/header.php',
         // 'structure/layout.php',
         // 'structure/loops.php',
         'structure/menu.php',
         'structure/post.php',
         // 'structure/search.php',
-        'structure/sidebar.php',
+        // 'structure/sidebar.php',
     );
     
     load_specified_files( $filenames );

@@ -6,7 +6,7 @@
 	margin-bottom: $entry--margin-bottom;
 	padding: $entry--padding;
 
-	@media only screen and (max-width: 860px) {
+	@media only screen and (max-width: $small-screen) {
 		margin-bottom: $entry--margin-bottom__small-screen;
 		padding: $entry--padding__small-screen;
 	}

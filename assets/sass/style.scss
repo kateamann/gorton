@@ -15,6 +15,16 @@
 	Text Domain: kastarter
 */
 
+
+@media only screen and (max-width: 1600px) { /* large desktop */ }
+@media only screen and (max-width: 1340px) { /* medium desktop */ }
+@media only screen and (max-width: 1200px) { /* small desktop */ }
+@media only screen and (max-width: 1023px) { /* tablet landscape */ }
+@media only screen and (max-width: 860px) { /* tablet portrait */ }
+@media only screen and (max-width: 480px) { /* large mobile */ }
+@media only screen and (max-width: 320px) { /* mobile */ }
+
+
 @import "bourbon";
 @import "neat";
 @import "../../node_modules/sass-rem/rem";

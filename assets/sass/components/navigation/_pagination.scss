@@ -5,7 +5,7 @@
 	clear: both;
 	margin: 40px 0;
 
-	@media only screen and (max-width: 860px) {
+	@media only screen and (max-width: $small-screen) {
 		margin: 5% auto;
 	}
 }
@@ -18,7 +18,7 @@
 	li {
 		display: inline;
 
-		@media only screen and (max-width: 860px) {
+		@media only screen and (max-width: $small-screen) {
 			a {
 				margin-bottom: 4px;
 			}

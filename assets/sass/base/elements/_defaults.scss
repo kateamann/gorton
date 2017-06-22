@@ -10,7 +10,7 @@ body > div {
 	font-size: 20px;
 	font-size: 2rem;
 
-	@media only screen and (max-width: 860px) {
+	@media only screen and (max-width: $small-screen) {
 		font-size: 18px;
 		font-size: 1.8rem;
 	}
@@ -26,7 +26,7 @@ body {
 	line-height: $base--line-height;
 	margin: 0;
 
-	@media only screen and (max-width: 860px) {
+	@media only screen and (max-width: $small-screen) {
 		font-size: 18px;
 		font-size: 1.8rem;
 	}

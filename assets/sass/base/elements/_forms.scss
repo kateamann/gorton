@@ -67,7 +67,7 @@ input[type="submit"]:hover,
 
 .entry-content .button:focus,
 .entry-content .button:hover {
-	color: #fff;
+	color: $button--hover-color;
 }
 
 .button {
@@ -94,9 +94,9 @@ input[type="submit"].small {
 	input[type="reset"]:disabled:hover,
 	input[type="submit"]:disabled,
 	input[type="submit"]:disabled:hover {
-		background-color: #eee;
+		background-color: $light-grey;
 		border-width: 0;
-		color: #777;
+		color: $button--color;
 		cursor: not-allowed;
 	}
 }
