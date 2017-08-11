@@ -2,14 +2,14 @@
 /**
  * Adds CSS from the customizer options
  *
- * @package   KateAmann\KAstarter
+ * @package   Gorton
  * @since     1.0.0
  * @author    Kate Amann
  * @link      http://kateamann.com
  * @license   GNU General Public License 2.0+
  *
  */
-namespace KateAmann\KAstarter\Customizer;
+namespace Gorton\Customizer;
 
 add_action( 'wp_enqueue_scripts', __NAMESPACE__ . '\build_customizer_inline_styles' );
 

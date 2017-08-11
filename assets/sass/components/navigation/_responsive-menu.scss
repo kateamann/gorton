@@ -23,6 +23,46 @@
 
 @media only screen and (max-width: $medium-screen) {
 
+	#genesis-mobile-nav-primary {
+		min-height: 51px;
+		min-width: 45px;
+	}
+
+	#genesis-mobile-nav-primary span, #genesis-mobile-nav-primary span:before, #genesis-mobile-nav-primary span:after {
+	cursor: pointer;
+	border-radius: 1px;
+	height: 4px;
+	width: 35px;
+	background: $green;
+	position: absolute;
+	left: 0;
+	display: block;
+	content: '';
+	}
+	#genesis-mobile-nav-primary span:before {
+	top: -10px;
+	}
+	#genesis-mobile-nav-primary span:after {
+	bottom: -10px; 
+	}
+
+	#genesis-mobile-nav-primary span, #genesis-mobile-nav-primary span:before, #genesis-mobile-nav-primary span:after {
+	  transition: all 500ms ease-in-out;
+	}
+	#genesis-mobile-nav-primary.activated span {
+	  background-color: transparent;
+	}
+	#genesis-mobile-nav-primary.activated span:before, #genesis-mobile-nav-primary.activated span:after {
+	  top: 0;
+	}
+	#genesis-mobile-nav-primary.activated span:before {
+	  transform: rotate(45deg);
+	}
+	#genesis-mobile-nav-primary.activated span:after {
+	  transform: rotate(-45deg);
+	}
+
+
 	.genesis-responsive-menu .wrap {
 		padding: 0;
 	}
@@ -59,22 +99,23 @@
 	}
 
 	.menu-toggle {
-		line-height: 22px;
 		position: relative;
-		width: 100%;
 		z-index: 1000;
-	}
+        width: auto;
+        float: right;
+   	}
 
 	.menu-toggle,
 	.menu-toggle:focus,
 	.menu-toggle:hover {
-		border-top: 1px solid $responsive-nav--border-color;
+		border-top: none;
 	}
 
 	.menu-toggle::before {
-		font-size: 1.5em;
-		margin-right: 10px;
+		font-size: 4rem;
+		margin-bottom: 0;
 		text-rendering: auto;
+		display: block;
 	}
 
 	.sub-menu-toggle {
@@ -106,6 +147,15 @@
 		-ms-transform:     rotate( 180deg );
 		transform:         rotate( 180deg );
 	}
+
+	.site-header .wrap {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .title-area {
+        width: auto;
+    }
 
 	.genesis-responsive-menu .genesis-nav-menu {
 
@@ -156,5 +206,11 @@
 		> .menu-item-has-children > a::after {
 			content: none;
 		}
+	}
+}
+
+@media only screen and (max-width: $smaller-screen) {
+	button.menu-toggle {
+		padding: 8px 10px 8px 5px;
 	}
 }

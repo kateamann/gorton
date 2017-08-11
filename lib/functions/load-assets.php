@@ -3,14 +3,14 @@
 /**
  * Asset loader handler
  *
- * @package   KateAmann\KAstarter
+ * @package   Gorton
  * @since     1.0.0
  * @author    Kate Amann
  * @link      http://kateamann.com
  * @license   GNU General Public License 2.0+
  *
  */
-namespace KateAmann\KAstarter;
+namespace Gorton;
 
 add_action( 'wp_enqueue_scripts', __NAMESPACE__ . '\enqueue_assets' );
 
@@ -23,7 +23,8 @@ add_action( 'wp_enqueue_scripts', __NAMESPACE__ . '\enqueue_assets' );
  */
 function enqueue_assets() {
 
-	wp_enqueue_style( CHILD_TEXT_DOMAIN . '-fonts', '//fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700', array(), CHILD_THEME_VERSION );
+	wp_enqueue_style( CHILD_TEXT_DOMAIN . '-fonts', '//fonts.googleapis.com/css?family=Poppins:300,600|Roboto:300,500', array(), CHILD_THEME_VERSION );
+	wp_enqueue_script( 'font-awesome', '//use.fontawesome.com/d904b396ca.js' );
 	wp_enqueue_style( 'dashicons' );
 
 	$suffix = ( defined( 'SCRIPT_DEBUG' ) && SCRIPT_DEBUG ) ? '' : '.min';
@@ -42,8 +43,8 @@ function enqueue_assets() {
 function responsive_menu_settings() {
 
 	$settings = array(
-        'mainMenu'          => __( 'Menu', CHILD_TEXT_DOMAIN ),
-		'menuIconClass'     => 'dashicons-before dashicons-menu',
+        'mainMenu'          => __( '<span></span>', CHILD_TEXT_DOMAIN ),
+		'menuIconClass'     => null,
 		'subMenu'           => __( 'Submenu', CHILD_TEXT_DOMAIN ),
 		'subMenuIconsClass' => 'dashicons-before dashicons-arrow-down-alt2',
 		'menuClasses'       => array(

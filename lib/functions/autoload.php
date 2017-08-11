@@ -3,14 +3,14 @@
 /**
  * File autoloader
  *
- * @package   KateAmann\KAstarter
+ * @package   Gorton
  * @since     1.0.0
  * @author    Kate Amann
  * @link      http://kateamann.com
  * @license   GNU General Public License 2.0+
  *
  */
-namespace KateAmann\KAstarter;
+namespace Gorton;
 
 /**
  * Load non-admin files
@@ -38,7 +38,7 @@ function load_nonadmin_files() {
         'structure/menu.php',
         'structure/post.php',
         // 'structure/search.php',
-        // 'structure/sidebar.php',
+        'structure/sidebar.php',
     );
     
     load_specified_files( $filenames );

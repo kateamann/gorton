@@ -3,14 +3,14 @@
 /**
 * Menu HTML markup structure
 *
-* @package   KateAmann\KAstarter
+* @package   Gorton
 * @since     1.0.0
 * @author    Kate Amann
 * @link      http://kateamann.com
 * @license   GNU General Public License 2.0+
 *
 */
-namespace KateAmann\KAstarter;
+namespace Gorton;
 
 /**
  * Unregister menu callbacks.
@@ -21,7 +21,12 @@ namespace KateAmann\KAstarter;
  */
 function unregister_menu_callbacks() {
     remove_action( 'genesis_after_header', 'genesis_do_subnav' );
+    remove_action( 'genesis_after_header', 'genesis_do_nav' );
 }
+
+// Reposition the primary navigation menu.
+
+add_action( 'genesis_header', 'genesis_do_nav', 15 );
 
 // Reposition the secondary navigation menu
 add_action( 'genesis_footer', 'genesis_do_subnav', 5 );

@@ -22,7 +22,7 @@ body {
 	font-family: $base--font-family;
 	@include rem( font-size, $base--font-size );
 	-webkit-font-smoothing: antialiased;
-	font-weight: 400;
+	font-weight: 300;
 	line-height: $base--line-height;
 	margin: 0;
 

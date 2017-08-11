@@ -3,14 +3,14 @@
 /**
  * Theme initialization
  *
- * @package   KateAmann\KAstarter
+ * @package   Gorton
  * @since     1.0.0
  * @author    Kate Amann
  * @link      http://kateamann.com
  * @license   GNU General Public License 2.0+
  *
  */
-namespace KateAmann\KAstarter;
+namespace Gorton;
 
 /**
  * Initialise the theme's constants.

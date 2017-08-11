@@ -1,0 +1,27 @@
+.home {
+
+	.cycloneslider {
+		z-index: 0;
+	}
+
+	.testimonial-widget {
+		padding: 40px 0;
+		background-color: $green;
+		color: $white;
+
+		h3 {
+			text-align: center;
+			color: $white;
+		}
+
+		.widget {
+			margin-bottom: 0;
+		}
+
+		.lSSlideOuter .lSPager.lSpg>li.active a, 
+		.lSSlideOuter .lSPager.lSpg>li:hover a {
+			background-color: $white;
+		}
+	}
+}
+

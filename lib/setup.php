@@ -3,14 +3,14 @@
 /**
  * Setup the child theme
  *
- * @package   KateAmann\KAstarter
+ * @package   Gorton
  * @since     1.0.0
  * @author    Kate Amann
  * @link      http://kateamann.com
  * @license   GNU General Public License 2.0+
  *
  */
-namespace KateAmann\KAstarter;
+namespace Gorton;
 
 add_action( 'genesis_setup', __NAMESPACE__ . '\setup_child_theme', 15 );
 
@@ -41,7 +41,7 @@ function setup_child_theme() {
  */
 function unregister_genesis_callbacks() {
     unregister_menu_callbacks();
-    //unregister_header_callbacks();
+    unregister_sidebar_callbacks();
     //unregister_footer_callbacks();
     //add each of the unregister structure callbacks here
 }
@@ -82,8 +82,15 @@ function add_theme_supports() {
         'genesis-after-entry-widget-area' => null,
         'genesis-footer-widgets' => 3,
         'genesis-menus'=> array( 
-            'primary' => __( 'After Header Menu', CHILD_TEXT_DOMAIN ), 
+            'primary' => __( 'Primary Navigation Menu', CHILD_TEXT_DOMAIN ), 
             'secondary' => __( 'Footer Menu', CHILD_TEXT_DOMAIN ) 
+        ),
+        'genesis-structural-wraps', array(
+            'header',
+            // 'menu-primary',
+            'menu-secondary',
+            'footer-widgets',
+            'footer'
         ),
     );
     
@@ -104,8 +111,8 @@ function add_theme_supports() {
 function add_new_image_sizes() {
     $config = array(
         'featured-image' =>  array(
-            'width' => 720, 
-            'height' => 400, 
+            'width' => 840, 
+            'height' => 500, 
             'crop' => TRUE,
         ),
     );

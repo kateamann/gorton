@@ -3,14 +3,14 @@
 /**
  * Customizer handler
  *
- * @package   KateAmann\KAstarter
+ * @package   Gorton
  * @since     1.0.0
  * @author    Kate Amann
  * @link      http://kateamann.com
  * @license   GNU General Public License 2.0+
  *
  */
-namespace KateAmann\KAstarter\Customizer;
+namespace Gorton\Customizer;
 
 use WP_Customize_Color_Control;
 

@@ -1,7 +1,7 @@
 .genesis-nav-menu {
 	clear: both;
 	@include rem( font-size, $nav--font-size );
-	font-weight: 600;
+	font-weight: 300;
 	line-height: 1;
 	width: 100%;
 
@@ -29,7 +29,7 @@
 	.sub-menu .current-menu-item > a:focus,
 	.sub-menu .current-menu-item > a:hover  {
 		color: $nav--hover-color;
-		text-decoration: underline;
+		text-decoration: none;
 	}
 
 	.sub-menu {

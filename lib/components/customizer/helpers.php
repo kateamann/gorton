@@ -3,14 +3,14 @@
 /**
  * Customizer helpers
  *
- * @package   KateAmann\KAstarter
+ * @package   Gorton
  * @since     1.0.0
  * @author    Kate Amann
  * @link      http://kateamann.com
  * @license   GNU General Public License 2.0+
  *
  */
-namespace KateAmann\KAstarter\Customizer;
+namespace Gorton\Customizer;
 
 /**
  * Get settings prefix.
@@ -20,7 +20,7 @@ namespace KateAmann\KAstarter\Customizer;
  * @return string
  */
 function get_settings_prefix() {
-    return 'kastarter';
+    return 'gorton';
 }
 
 
