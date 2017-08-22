@@ -42,7 +42,7 @@ function setup_child_theme() {
 function unregister_genesis_callbacks() {
     unregister_menu_callbacks();
     unregister_sidebar_callbacks();
-    //unregister_footer_callbacks();
+    unregister_footer_callbacks();
     //add each of the unregister structure callbacks here
 }
 
@@ -97,6 +97,9 @@ function add_theme_supports() {
     foreach( $config as $feature => $args ) {
        add_theme_support( $feature, $args ); 
     }
+
+      //* Add Excerpt support to Pages
+    add_post_type_support( 'page', 'excerpt' );
     
 }
 

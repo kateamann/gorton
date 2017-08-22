@@ -31,7 +31,7 @@ function load_nonadmin_files() {
         // 'functions/tinymce-styles.php',
         // 'structure/archive.php',
         'structure/comments.php',
-        // 'structure/footer.php',
+        'structure/footer.php',
         // 'structure/header.php',
         // 'structure/layout.php',
         // 'structure/loops.php',

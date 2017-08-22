@@ -1,6 +1,7 @@
 .sidebar {
 	@include rem( font-size, $sidebar--font-size );
 	margin-bottom: $sidebar--margin-bottom;
+	background-color: $sidebar-widget--background-color;
 
 	@media only screen and (max-width: $small-screen) {
 		margin-bottom: 5%;

@@ -1,6 +1,13 @@
-.site-inner{
+.site-inner {
 	.hb-datepick-popup-wrapper, 
 	.hb-datepick-wrapper {
 		border-radius: 0;
 	}
+
+	.sidebar-primary {
+		.hb-booking-search-form h3 {
+			@include rem( font-size, $base--font-size );
+		}
+	}
+
 }

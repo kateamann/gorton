@@ -27,6 +27,16 @@ add_action( 'genesis_setup', __NAMESPACE__ . '\register_widget_areas', 15 );
 function register_widget_areas() {
 	$widget_areas = array(
 		array(
+			'id'          => 'home-feature-left',
+			'name'        => __( 'Home Feature Left', CHILD_THEME_NAME ),
+			'description' => __( 'Home left side featured link', CHILD_THEME_NAME ),
+		),
+		array(
+			'id'          => 'home-feature-right',
+			'name'        => __( 'Home Feature Right', CHILD_THEME_NAME ),
+			'description' => __( 'Home right side featured link', CHILD_THEME_NAME ),
+		),
+		array(
 			'id'          => 'home-footer-testimonial',
 			'name'        => __( 'Home Footer Testimonials', CHILD_THEME_NAME ),
 			'description' => __( 'Testimonial slider at bottom of the homepage', CHILD_THEME_NAME ),
