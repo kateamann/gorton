@@ -13,18 +13,18 @@ $base--width__landing-page: 800px;
 // Content widths
 // ========================
 
-$content--width: 840px;
-$content-both-sidebars--width: 620px;
+$content--width: 900px;
+$content-both-sidebars--width: 680px;
 
-$content--width__bigger-screen: 760px;
-$content-both-sidebars--width__bigger-screen: 540px;
+$content--width__bigger-screen: 820px;
+$content-both-sidebars--width__bigger-screen: 600px;
 
-$content--width__big-screen: 580px;
-$content-both-sidebars--width__big-screen: 360px;
+$content--width__big-screen: 640px;
+$content-both-sidebars--width__big-screen: 420px;
 
 
-$primary-sidebar--width: 400px;
-$primary-sidebar--width__bigger-screen: 340px;
+$primary-sidebar--width: 340px;
+$primary-sidebar--width__bigger-screen: 280px;
 
 $secondary-sidebar--width: 180px;
 
@@ -72,7 +72,7 @@ $entry-footer-meta--paddingTop: 24px;
 
 $sidebar--margin-bottom: 40px;
 
-$sidebar-widget--padding: 40px;
+$sidebar-widget--padding: 40px 0;
 $sidebar-widget--padding__small-screen: 30px;
 
 

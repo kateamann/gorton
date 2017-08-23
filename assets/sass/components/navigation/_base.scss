@@ -21,6 +21,10 @@
 		display: block;
 		padding: 32px 20px;
 		text-decoration: none;
+
+		@media only screen and (max-width: $big-screen) {
+			padding: 32px 10px;
+		}
 	}
 
 	a:focus,
