@@ -30,6 +30,9 @@ function enqueue_assets() {
 	$suffix = ( defined( 'SCRIPT_DEBUG' ) && SCRIPT_DEBUG ) ? '' : '.min';
     
 	wp_enqueue_script( CHILD_TEXT_DOMAIN . '-responsive-menu', CHILD_URL . "/assets/js/responsive-menus{$suffix}.js", array( 'jquery' ), CHILD_THEME_VERSION, true );
+
+	wp_enqueue_script('sticky-kit', CHILD_URL . "/assets/js/jquery.sticky-kit.min.js", array( 'jquery' ), CHILD_THEME_VERSION, true );
+	wp_enqueue_script('sticky-sidebar', CHILD_URL . "/assets/js/sticky-sidebar.js", array( 'jquery' ), CHILD_THEME_VERSION, true );
     
     wp_localize_script(
 		CHILD_TEXT_DOMAIN . '-responsive-menu',

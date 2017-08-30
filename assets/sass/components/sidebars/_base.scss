@@ -4,7 +4,7 @@
 	background-color: $sidebar-widget--background-color;
 
 	@media only screen and (max-width: $small-screen) {
-		margin-bottom: 5%;
+		margin: 0 0 5% 0;
 	}
 
 	.widget {

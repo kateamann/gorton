@@ -83,7 +83,7 @@ function add_theme_supports() {
         'genesis-footer-widgets' => 3,
         'genesis-menus'=> array( 
             'primary' => __( 'Primary Navigation Menu', CHILD_TEXT_DOMAIN ), 
-            'secondary' => __( 'Footer Menu', CHILD_TEXT_DOMAIN ) 
+            'secondary' => __( 'Feature Menu', CHILD_TEXT_DOMAIN ) 
         ),
         'genesis-structural-wraps', array(
             'header',

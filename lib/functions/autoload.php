@@ -28,7 +28,7 @@ function load_nonadmin_files() {
         // 'functions/formatting.php',
         'functions/load-assets.php',
         // 'functions/markup.php',
-        // 'functions/tinymce-styles.php',
+        'functions/tinymce-styles.php',
         // 'structure/archive.php',
         'structure/comments.php',
         'structure/footer.php',

@@ -51,16 +51,16 @@ $header-widget-area--width__big-screen: 620px;
 $entry--margin-bottom: 40px;
 $entry--padding: 40px 0;
 $entry--margin-bottom__small-screen: 5%;
-$entry--padding__small-screen: 30px;
+$entry--padding__small-screen: 0;
 
 $after-entry--margin-bottom: 40px;
-$after-entry--padding: 60px;
+$after-entry--padding: 40px;
 
 $author-box--margin-bottom: 40px;
-$author-box--padding: 60px;
+$author-box--padding: 40px;
 
-$archive-description--margin-bottom: 40px;
-$archive-description--padding: 60px;
+$archive-description--margin-bottom: 0;
+$archive-description--padding: 40px 0 0;
 
 $entry-header-meta--margin-bottom: 24px;
 $entry-footer-meta--paddingTop: 24px;
@@ -73,7 +73,7 @@ $entry-footer-meta--paddingTop: 24px;
 $sidebar--margin-bottom: 40px;
 
 $sidebar-widget--padding: 40px 0;
-$sidebar-widget--padding__small-screen: 30px;
+$sidebar-widget--padding__small-screen: 0;
 
 
 //

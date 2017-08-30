@@ -11,3 +11,7 @@
 		padding: $entry--padding__small-screen;
 	}
 }
+
+.feature-text {
+	@include rem( font-size, 26px );
+}

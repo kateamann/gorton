@@ -3,5 +3,30 @@
 
 .nav-secondary {
 	background-color: $secondary-nav--background-color;
-	border-top: 1px solid $secondary-nav--border-color;
+	border: none;
+	text-align: right;
+
+	@media only screen and (max-width: $medium-screen) {
+		text-align: center;
+	}
+
+	.genesis-nav-menu {
+		padding: 0 100px;
+
+		@media only screen and (max-width: $medium-screen) {
+			padding: 0;
+		}
+
+		a {
+			background-color: $green;
+		    color: $white;
+		    font-weight: 500;
+		    padding: 10px 15px;
+		    margin-left: 20px;
+
+		    &:hover {
+		    	color: $light-green;
+		    }
+		}
+	}
 }

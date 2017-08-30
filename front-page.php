@@ -39,9 +39,9 @@ function home_accommodation_list() {
 	$loop = new \WP_Query( $args ); 
 
 
-	// echo '<div class="home-accom-loop">';
 	if( $loop->have_posts() ) { ?>
 
+	<h2>Our Cottages</h2>
 	<div class="home-accom-loop">
 
 	<?php
@@ -53,7 +53,7 @@ function home_accommodation_list() {
 				<?php the_post_thumbnail( 'featured-image' ); ?>
 			</div>
 			<div class="cottage-feature-link">
-				<h2> <?php the_title(); ?> </h2>
+				<h3> <?php the_title(); ?> </h3>
 			</div>
 			</a>
 		</div>

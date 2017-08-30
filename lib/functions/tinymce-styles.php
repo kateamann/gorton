@@ -3,16 +3,16 @@
 /**
  * tinyMCE Custom Styles
  *
- * @package   KateAmann\haAgency
+ * @package   Gorton
  * @since     1.0.0
  * @author    Kate Amann
  * @link      http://kateamann.com
  * @license   GNU General Public License 2.0+
  *
  */
-namespace KateAmann\haAgency;
+namespace Gorton;
 
-add_filter( 'mce_buttons_2', 'my_mce_buttons_2' );
+add_filter( 'mce_buttons_2', __NAMESPACE__ . '\my_mce_buttons_2' );
 /**
  * Add the Styles dropdown to the TinyMCE editor
  *
@@ -25,7 +25,7 @@ function my_mce_buttons_2( $buttons ) {
     return $buttons;
 }
 
-add_filter( 'tiny_mce_before_init', 'my_mce_before_init' );
+add_filter( 'tiny_mce_before_init', __NAMESPACE__ . '\my_mce_before_init' );
 /**
  * Populate the Styles dropdown in TinyMCE with custom style
  *
@@ -37,9 +37,9 @@ function my_mce_before_init( $settings ) {
 
     $style_formats = array(
         array(
-        	'title' => 'Standfirst',
+        	'title' => 'Feature Text',
         	'block' => 'p',
-        	'classes' => 'standfirst'
+        	'classes' => 'feature-text'
         )
     );
 

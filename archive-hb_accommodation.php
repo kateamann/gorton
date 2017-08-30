@@ -14,12 +14,20 @@ namespace Gorton;
 
 add_filter( 'genesis_pre_get_option_site_layout', '__genesis_return_full_width_content' );
 
+add_action( 'genesis_before_loop', __NAMESPACE__ . '\accommodation_archive_title', 1 );
+
+function accommodation_archive_title() {
+	echo '<div class="archive-description taxonomy-archive-description taxonomy-description"><h1 class="archive-title">Accommodation</h1></div>';
+}
+
+
 remove_action( 'genesis_entry_header', 'genesis_post_info', 12 );
 remove_action( 'genesis_entry_footer', 'genesis_post_meta' );
 remove_action( 'genesis_entry_content', 'genesis_do_post_image', 8 );
 remove_action( 'genesis_entry_content', 'genesis_do_post_content' );
 
-add_action( 'genesis_entry_header', 'genesis_do_post_image', 8 );
+
+add_action( 'genesis_entry_header', 'genesis_do_post_image', 1 );
 
 /**
  * Archive Post Class
@@ -45,10 +53,11 @@ add_filter( 'post_class', __NAMESPACE__ . '\be_home_post_class' );
 
 add_action( 'genesis_entry_content', __NAMESPACE__ . '\accom_desc' );
 
-function accom_desc() {
-    echo '<p>Sleeps '. genesis_get_custom_field('accom_max_occupancy') . '</p>';
-    echo '<p>'. genesis_get_custom_field('accom_list_desc') . '</p>';
-    echo '<p><small>Starting at £'. genesis_get_custom_field('accom_starting_price') . ' per week</small></p>';
+function accom_desc() { ?>
+    <p>Sleeps <?php echo genesis_get_custom_field('accom_max_occupancy'); ?> • from £<?php echo genesis_get_custom_field('accom_starting_price'); ?> per week</p>
+    <p><a class="button" href="<?php the_permalink(); ?>">View this cottage</a></p>
+
+    <?php
 }
 
 genesis();
