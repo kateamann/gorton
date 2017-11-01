@@ -68,18 +68,24 @@
 		    height: 100%;
 		    padding: 0;
 		    text-align: center;
+		    background: 
+			    linear-gradient(
+			      to bottom,
+			      rgba(255,255,255, 0),
+			      rgba(255,255,255, 0.6)
+			    );
 		    background-color: rgba(255,255,255,0.4);
 		    border: 2px solid $white;
 
 		    &:hover {
-		    	background-color: rgba(255,255,255,0.1);
+		    	background-color: rgba(255,255,255,0);
 		    }
 
 		    h3 {
 		    	@include rem( font-size, 30px );
-		    	color: $black;
-		    	margin: auto;
-		    	text-shadow: 0px 0px 20px rgba(255,255,255,0.8);
+		    	color: $dark-grey;
+		    	margin: auto auto 20px;
+		    	text-shadow: $white 1px 0 10px;
 		    }
 		}
 
