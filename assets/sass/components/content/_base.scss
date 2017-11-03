@@ -12,6 +12,34 @@
 	}
 }
 
+.page .entry {
+	@media only screen and (max-width: $small-screen) {
+		padding-top: 30px;
+	}
+}
+
+.singular-featured-image {
+	padding-top: 40px;
+
+	@media only screen and (max-width: $small-screen) {
+		padding-top: 0;
+	}
+}
+
 .feature-text {
 	@include rem( font-size, 26px );
+
+	@media only screen and (max-width: $small-screen) {
+		@include rem( font-size, 22px );
+	}
+
+	@media only screen and (max-width: $small-screen) {
+		@include rem( font-size, 20px );
+	}
+}
+
+.entry-content .cycloneslider {
+	@media only screen and (max-width: $medium-screen) {
+		margin-bottom: 50px;
+	}
 }

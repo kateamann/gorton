@@ -9,10 +9,17 @@
 
 	.content {
 		text-align: center;
+		border-bottom: 1px solid $light-green;
+		padding-bottom: 40px;
+		margin-bottom: 40px;
 
 		.entry {
 			padding: 40px 15% 0;
 			margin-bottom: 0;
+
+			@media only screen and (max-width: $medium-screen) {
+				padding: 40px 0 0;
+			}
 		}
 	}
 
@@ -23,21 +30,42 @@
 
 	.home-accom-loop {
 		width: 100%;
-		margin-bottom: 80px;
 		display: flex;
 		flex-wrap: wrap;
 
 		.cottage-link {
 			position: relative;
-			// flex-grow: 1;
-			width: 33.333%;
+			width: 31.623931623931625%;
+			float: left;
+			margin-left: 2.564102564102564%;
+			margin-bottom: 2.564102564102564%;
 
-			@media only screen and (max-width: $medium-screen) {
-				width: 50%;
+			&:nth-of-type(3n+1) {
+				clear: both;
+				margin-left: 0;
+
+				@media only screen and (max-width: $medium-screen) {
+					clear: none;
+					margin-left: 2.564102564102564%;
+				}
 			}
 
-			@media only screen and (max-width: $smaller-screen) {
+			@media only screen and (max-width: $medium-screen) {
+				width: 48.717948717948715%;
+
+				&:nth-of-type(2n+1) {
+					clear: both;
+					margin-left: 0;
+				}
+			}
+
+			@media only screen and (max-width: $small-screen) {
 				width: 100%;
+				margin-bottom: 40px;
+
+				&:last-of-type {
+					margin-bottom: 0;
+				}
 			}
 		}
 
@@ -55,11 +83,16 @@
 			img {
 				display: inherit;
 			}
+
+			@media only screen and (max-width: $small-screen) {
+				padding-bottom: 10px;
+			}
 		}
 
 		.cottage-feature-link {
 			display: flex;
-			align-items: center;
+			flex-direction: column;
+    		justify-content: center;
 			position: absolute;
 		    top: 0;
 		    bottom: 0;
@@ -68,27 +101,43 @@
 		    height: 100%;
 		    padding: 0;
 		    text-align: center;
-		    background: 
-			    linear-gradient(
-			      to bottom,
-			      rgba(255,255,255, 0),
-			      rgba(255,255,255, 0.6)
-			    );
-		    background-color: rgba(255,255,255,0.4);
-		    border: 2px solid $white;
+		    opacity: 0;
 
 		    &:hover {
-		    	background-color: rgba(255,255,255,0);
+		    	background-color: rgba(255,255,255,0.7);
+		    	opacity: 1;
 		    }
 
 		    h3 {
-		    	@include rem( font-size, 30px );
+		    	@include rem( font-size, 28px );
 		    	color: $dark-grey;
-		    	margin: auto auto 20px;
-		    	text-shadow: $white 1px 0 10px;
+		    }
+
+		    p {
+		    	color: $dark-grey;
+		    	margin-bottom: 0;
+		    }
+
+		    @media only screen and (max-width: $small-screen) {
+		    	display: block;
+				position: relative;
+			    padding: 0;
+			    text-align: center;
+			    opacity: 1;
 		    }
 		}
+	}
 
+	.home-widgets {
+		text-align: center;
+
+		@media only screen and (max-width: $small-screen) {
+			margin-bottom: 40px;
+
+			&:last-of-type {
+				margin-bottom: 0;
+			}
+		}
 	}
 
 

@@ -1,10 +1,4 @@
 .entry-title {
-	@include rem( font-size, $entry-title--font-size );
-
-	@media only screen and (max-width: $medium-screen) {
-			@include rem( font-size, 30px );
-		}
-
 	a {
 		color: $entry-title--link-color;
 		text-decoration: none;

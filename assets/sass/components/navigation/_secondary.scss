@@ -11,7 +11,8 @@
 	}
 
 	.genesis-nav-menu {
-		padding: 0 20px;
+	    margin: auto;
+	    min-height: 40px;
 
 		@media only screen and (max-width: $medium-screen) {
 			padding: 0;
@@ -21,12 +22,15 @@
 			background-color: $green;
 		    color: $white;
 		    font-weight: 500;
-		    padding: 10px 15px;
-		    margin-left: 20px;
+		    padding: 10px 20px;
 
 		    &:hover {
 		    	color: $light-green;
 		    }
+
+		    @media only screen and (max-width: $medium-screen) {
+				padding: 10px 10px;
+			}
 		}
 	}
 }

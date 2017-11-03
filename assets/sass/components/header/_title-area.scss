@@ -9,10 +9,18 @@
 	.header-full-width & {
 		float: left;
 		width: $title-area--width;
+
+		@media only screen and (max-width: $smaller-screen) {
+			width: 250px;
+		}
 	}
 
 	@media only screen and (max-width: $medium-screen) {
-		width: 100%;
+		padding: 10px;
+	}
+
+	@media only screen and (max-width: $smaller-screen) {
+		width: 250px;
 	}
 }
 
@@ -21,7 +29,7 @@
 	font-family: $headings--font-family;
 	font-weight: 300;
 	line-height: 1.2;
-	margin-bottom: 0;
+	margin-bottom: 10px;
 
 	a,
 	a:focus,

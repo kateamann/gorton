@@ -15,21 +15,25 @@ h6 {
 
 h1 {
 	@include rem( font-size, 36px );
+
+	@media only screen and (max-width: $medium-screen) {
+		@include rem( font-size, 28px );
+	}
 }
 
 h2 {
 	@include rem( font-size, 30px );
-	margin-top: 60px;
+	margin-top: 40px;
 
-	@media only screen and (max-width: $smaller-screen) {
-		@include rem( font-size, 26px );
+	@media only screen and (max-width: $medium-screen) {
+		@include rem( font-size, 24px );
 	}
 }
 
 h3 {
 	@include rem( font-size, 24px );
 
-	@media only screen and (max-width: $smaller-screen) {
+	@media only screen and (max-width: $medium-screen) {
 		@include rem( font-size, 22px );
 	}
 }

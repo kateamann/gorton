@@ -54,6 +54,7 @@ function home_accommodation_list() {
 			</div>
 			<div class="cottage-feature-link">
 				<h3> <?php the_title(); ?> </h3>
+				<p>Sleeps <?php echo genesis_get_custom_field('accom_max_occupancy'); ?> • from £<?php echo genesis_get_custom_field('accom_starting_price'); ?> per week</p>
 			</div>
 			</a>
 		</div>
@@ -64,7 +65,7 @@ function home_accommodation_list() {
 	} ?>
 
 	<div class="cottage-link">
-		<img src="/wp-content/themes/gorton/images/Gorton-Logo-v1.png" alt="Gorton House and Cottages, Self Catering Accommodation" />
+		<img src="wp-content/themes/gorton/images/Gorton-Logo-v1.png" alt="Gorton House and Cottages, Self Catering Accommodation" />
 	</div>
 	
 	<?php	
