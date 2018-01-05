@@ -65,7 +65,7 @@ function home_accommodation_list() {
 	} ?>
 
 	<div class="cottage-link">
-		<img src="wp-content/themes/gorton/images/Gorton-Logo-v1.png" alt="Gorton House and Cottages, Self Catering Accommodation" />
+		<img src="wp-content/themes/gorton/images/GortonHouseLogoPicture.png" alt="Gorton House and Cottages, Self Catering Accommodation" />
 	</div>
 	
 	<?php	

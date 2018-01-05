@@ -7,6 +7,13 @@
 	
 	> .wrap {
 		padding: 20px 0;
+		display: flex;
+		align-items: flex-end;
+
+		@media only screen and (max-width: $medium-screen) {
+			display: block;
+			padding: 10px 0;
+		}
 	}
 
 	@media only screen and (max-width: $medium-screen) {
