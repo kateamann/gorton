@@ -1,0 +1,14 @@
+h3.g-accord-header {
+	font-family: "Poppins", serif;
+	@include rem( font-size, 24px );
+    font-weight: 300;
+    line-height: 1.2;
+    padding: 10px 20px;
+    margin: 0 0 10px;
+    background-color: $light-green;
+}
+
+.accordion-content.g-accord-content {
+	border: none;
+
+}

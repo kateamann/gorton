@@ -10,6 +10,7 @@ This child theme requires:
 - Cyclone Slider
 - Genesis Featured Page Advanced
 - Genesis Testimonial Slider
+- Genesis Club Lite
 - Ninja Forms
 - TablePress
 - TablePress Extension: Responsive Tables
