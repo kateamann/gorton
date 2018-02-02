@@ -88,14 +88,4 @@ function gorton_home_feature_widgets() {
 	) );
 }
 
-
-add_action( 'genesis_before_footer', __NAMESPACE__ . '\testimonial_widget', 1 );
-function testimonial_widget() {
-	genesis_widget_area( 'home-footer-testimonial', array(
-		'before' => '<div class="testimonial-widget">',
-		'after' => '</div>',
-	) );
-}
-
-
 genesis();

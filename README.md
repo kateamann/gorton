@@ -1,15 +1,15 @@
 # Gorton Genesis Child Theme
 
-
-## Features
-
 ## Dependencies
 
 This child theme requires:
 
--The Genesis framework
--WordPress
--HotelWP
-
-## Installation
-
+- The Genesis framework
+- WordPress
+- HBook by HotelWP
+- Cyclone Slider
+- Genesis Featured Page Advanced
+- Genesis Testimonial Slider
+- Ninja Forms
+- TablePress
+- TablePress Extension: Responsive Tables

@@ -36,11 +36,6 @@ function register_widget_areas() {
 			'name'        => __( 'Home Feature Right', CHILD_THEME_NAME ),
 			'description' => __( 'Home right side featured link', CHILD_THEME_NAME ),
 		),
-		array(
-			'id'          => 'home-footer-testimonial',
-			'name'        => __( 'Home Footer Testimonials', CHILD_THEME_NAME ),
-			'description' => __( 'Testimonial slider at bottom of the homepage', CHILD_THEME_NAME ),
-		),
 	);
 	foreach ( $widget_areas as $widget_area ) {
 		genesis_register_sidebar( $widget_area );
