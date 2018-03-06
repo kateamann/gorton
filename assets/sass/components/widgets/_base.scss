@@ -27,6 +27,15 @@
 	.testimonials-list blockquote {
 		margin-top: 0;
 	}
+
+	.lSSlideOuter .lSPager.lSpg>li a {
+    	background-color: $mid-green;
+    }
+
+	.lSSlideOuter .lSPager.lSpg>li.active a, 
+	.lSSlideOuter .lSPager.lSpg>li:hover a {
+	    background-color: $green;
+	}
 }
 
 .widget p:last-child,
