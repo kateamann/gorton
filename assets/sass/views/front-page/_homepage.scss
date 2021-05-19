@@ -30,33 +30,21 @@
 
 	.home-accom-loop {
 		width: 100%;
+		max-width: 1000px;
+		margin: 0 auto;
 		display: flex;
 		flex-wrap: wrap;
 
 		.cottage-link {
 			position: relative;
-			width: 31.623931623931625%;
+			width: 48.717948717948715%;
 			float: left;
 			margin-left: 2.564102564102564%;
 			margin-bottom: 2.564102564102564%;
 
-			&:nth-of-type(3n+1) {
+			&:nth-of-type(2n+1) {
 				clear: both;
 				margin-left: 0;
-
-				@media only screen and (max-width: $medium-screen) {
-					clear: none;
-					margin-left: 2.564102564102564%;
-				}
-			}
-
-			@media only screen and (max-width: $medium-screen) {
-				width: 48.717948717948715%;
-
-				&:nth-of-type(2n+1) {
-					clear: both;
-					margin-left: 0;
-				}
 			}
 
 			@media only screen and (max-width: $small-screen) {
@@ -101,12 +89,14 @@
 		    height: 100%;
 		    padding: 0;
 		    text-align: center;
-		    opacity: 0;
+		    // opacity: 0;
+		    background-color: rgba(255,255,255,0.7);
+		    opacity: 1;
 
-		    &:hover {
-		    	background-color: rgba(255,255,255,0.7);
-		    	opacity: 1;
-		    }
+		    // &:hover {
+		    // 	background-color: rgba(255,255,255,0.7);
+		    // 	opacity: 1;
+		    // }
 
 		    h3 {
 		    	@include rem( font-size, 28px );
@@ -118,15 +108,15 @@
 		    	margin-bottom: 0;
 		    }
 
-		    @media only screen and (max-width: $small-screen) {
-		    	display: block;
-				position: relative;
-			    padding: 0;
-			    text-align: center;
-			    opacity: 1;
-			    width: auto;
-		    	height: auto;
-		    }
+		  //   @media only screen and (max-width: $small-screen) {
+		  //   	display: block;
+				// position: relative;
+			 //    padding: 0;
+			 //    text-align: center;
+			 //    opacity: 1;
+			 //    width: auto;
+		  //   	height: auto;
+		  //   }
 		}
 	}
 
