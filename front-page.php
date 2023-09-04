@@ -33,7 +33,7 @@ add_action( 'genesis_after_loop', __NAMESPACE__ . '\home_accommodation_list', 1 
 function home_accommodation_list() {
 	$args = array(
 		'post_type' => 'hb_accommodation', 
-		'posts_per_page' => 5,
+		'posts_per_page' => 6,
 	);
 
 	$loop = new \WP_Query( $args ); 
